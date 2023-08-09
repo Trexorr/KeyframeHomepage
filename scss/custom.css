@@ -1,0 +1,21 @@
+body{
+    background-color: #ffeecf;
+}
+
+.pcontainer {
+    border-radius: 80px;
+    background: #f4e0bd;
+    box-shadow:  11px 11px 20px #3a3a3a;
+                /* -11px -11px 20px #eaeaea; */
+    height: 580px;
+    }
+.rounded-5 {
+    border-radius: 2.5rem!important;
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/maps";
+@import "bootstrap/scss/mixins";
+@import "bootstrap/scss/utilities";

@@ -1,0 +1,19 @@
+{
+  "name": "keyframehomepage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^5.3.1",
+    "@popperjs/core": "^9.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "parcel /src/index.html",
+    "prebuild": "npx rimraf build",
+    "build": "parcel build --public-url ./ ./src/index.html --experimental-scope-hoisting --out-dir build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
